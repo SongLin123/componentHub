@@ -1,0 +1,120 @@
+.tree_node_content {
+    padding: 30px 20px;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+    .tree_select {
+      margin: 0 0 16px 0;
+      width: 100%;
+    }
+    .tree_input {
+      margin-bottom: 30px;
+    }
+    .all_text {
+      height: 37px;
+      font-size: 18px;
+      padding-left: 10px;
+      // font-family: Source Han Sans CN;
+      font-weight: 500;
+      line-height: 22px;
+      color: rgba(51, 88, 148, 1);
+      opacity: 1;
+      margin-bottom: 54px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 2px;
+      cursor: pointer;
+      &:hover {
+        background-color: #f5f7fa;
+      }
+    }
+    .num_style {
+      font-size: 18px;
+      // font-family:Source Han Sans CN;
+      font-weight: 500;
+      line-height: 22px;
+      color: rgba(105, 115, 242, 1);
+      opacity: 1;
+    }
+    .custom-tree-node {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      // align-items: center;
+      span:first-child {
+        flex: 1;
+      }
+      .handle_icon {
+        position: absolute;
+        right: 0;
+      }
+    }
+  }
+  .handle_btn {
+    display: flex;
+    flex-direction: column;
+    .el-button {
+      margin-left: 0;
+      font-size: 14px;
+      color: rgba(157, 172, 202, 1);
+    }
+  }
+  .el-tooltip__popper.is-light {
+    border: 1px solid #ffffff;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.16);
+    padding: 0 20px;
+  }
+
+  .el-popover {
+    min-width: 62px;
+  }
+  .groupForm {
+    .form_marke,
+    textarea {
+      height: 80px;
+    }
+  }
+  .dialog-footer,
+  .el-message-box__btns {
+    button {
+      width: 120px;
+    }
+  }
+  .el-dialog__footer,
+  .el-message-box__btns {
+    text-align: center;
+  }
+  .el-message-box {
+    width: 400px;
+  }
+  .el-message-box__btns {
+    button {
+      margin-top: 48px;
+    }
+  }
+  .el-tree {
+    position: initial;
+  }
+  .part_num {
+    color: #e02020;
+  }
+  .all_num {
+    color: #5662ff;
+  }
+  .tree_content {
+    width: 100%;  
+    overflow: auto;
+    height: 65vh;
+    .el-tree-node > .el-tree-node__children {
+      overflow: unset;
+    }
+  }
+  .active{
+    background-color: #f5f7fa;
+  }
+  .el-tree-node__content{
+    height: 30px;
+    border-radius:2px;
+  }
